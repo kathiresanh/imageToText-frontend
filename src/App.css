@@ -1,0 +1,20 @@
+#photos{
+  max-width: 400px;
+  min-width: none;
+  max-height: 500px;
+}
+
+body{
+  background-image: linear-gradient(to right,rgb(207, 24, 198),rgb(76, 39, 134));
+}
+#card1{
+  padding-top: 10px;
+}
+
+#imagetab{
+  padding-top: 10px;
+}
+
+#resulttab{
+  padding-top: 10px;
+}
