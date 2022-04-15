@@ -79,9 +79,9 @@ function App() {
           {typeof(imageData)== imagetype  ?   <img  src={imageData} id="photos"></img>: null  }
             
              <h4>Click on the images  convert to text </h4>
-            <img  src={`./images/1.jpg`}  className="p-3" onClick={(e)=>{changeImage(e)}} id="photos"></img>
-            <img  src={`./images/2.jpg`} className="p-3"  onClick={(e)=>{changeImage(e)}}  id="photos"></img>
-            <img  src={`./images/3.png`}  className="p-3" onClick={(e)=>{changeImage(e)}}  id="photos"></img>
+            <img  src={`./1.jpg`}  className="p-3" onClick={(e)=>{changeImage(e)}} id="photos"></img>
+            <img  src={`./2.jpg`} className="p-3"  onClick={(e)=>{changeImage(e)}}  id="photos"></img>
+            <img  src={`./3.png`}  className="p-3" onClick={(e)=>{changeImage(e)}}  id="photos"></img>
             </div>
             <div className='col-sm-6' id='resulttab'>
               <h2 style={{color:"white"}}>Progress : {count*100}</h2>
